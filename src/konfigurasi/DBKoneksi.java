@@ -24,7 +24,7 @@ public Connection koneksi;
         try
         {
             String url = "jdbc:mysql://localhost:3306/datamhs";
-            koneksi= DriverManager.getConnection(url,"root","toor");
+            koneksi= DriverManager.getConnection(url,"root","");
             System.out.println("Berhasil Koneksi Ke Database");
         }catch(SQLException e)
         {
